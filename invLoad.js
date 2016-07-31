@@ -9,7 +9,12 @@ CarLot = (function (inventoryHandler) {
     var car3 = document.querySelector("#car3");
     var car4 = document.querySelector("#car4");
     var car5 = document.querySelector("#car5");
-    var carsArray = [ car0, car1, car2, car3, car4, car5];
+
+    var carsArray = [car0, car1, car2, car3, car4, car5];
+
+    for (var i = 0; i < carsArray.length; i++) {
+      carsArray[i].attributes[0].value = `border-color: ${message[0].cars[i].Color}`;
+    }
 
     for (var i = 0; i < message[0].cars.length; i++){
       var output = message[0].cars[i];
@@ -18,7 +23,12 @@ CarLot = (function (inventoryHandler) {
       }
     }
   }
+
+  inventoryHandler.getInventory = function(messsage) {
+
+    var carsArray = [car0, car1, car2, car3, car4, car5];
+    for (var i = 0; i < carsArray.length; i++)
+      console.log(carsArray[i].innerHTML)
+  }
 return inventoryHandler
-
-
 })({ })
