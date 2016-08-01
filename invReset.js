@@ -9,18 +9,18 @@ CarLot = (function (evtReseter) {
 
     var carsArray = [car0, car1, car2, car3, car4, car5];
 
-    evtReseter.resetEvents = function() {
-      var reset = document.getElementById("reset");
-      reset.addEventListener('click', function (evt) {
-        CarLot.removeClickEvent();
-      })
-    }
+    // evtReseter.resetEvents = function() {
+    //   var reset = document.getElementById("reset");
+    //   reset.addEventListener('click', function (evt) {
+    //     CarLot.removeClickEvent();
+    //   })
+    // }
 
-  evtReseter.removeClickEvent = function() {
-    for (var i = 0; i < carsArray.length; i++) {
-      carsArray[i].attributes[2].value = "car col-3-md"
-      }
-    }
+  // evtReseter.removeClickEvent = function() {
+  //   for (var i = 0; i < carsArray.length; i++) {
+  //     carsArray[i].attributes[2].value = "car col-3-md"
+  //     }
+  //   }
 return evtReseter
 
 })(CarLot || { })

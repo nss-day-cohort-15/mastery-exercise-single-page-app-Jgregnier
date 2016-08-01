@@ -17,7 +17,8 @@ CarLot = (function (eventAdder) {
       carsArray[i].addEventListener('click', function (evt) {
 
       var self = evt.target;
-      self.attributes[2].value = "car col-md-3 clickEvent" ;
+      $(self).toggleClass('clickEvent');
+      // self.attributes[2].value = "car col-md-3 clickEvent" ;
       searchBar.focus();
       })
     }
