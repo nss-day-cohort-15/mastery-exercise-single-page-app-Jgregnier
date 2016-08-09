@@ -22,7 +22,7 @@ var CarLot = (function (thing) {
   }
 
 
-//IIFE #3
+//IIFE #3 reset cars styles
 
   // thing.resetingEvents = function() {
   //   CarLot.resetEvents()
@@ -35,4 +35,3 @@ return CarLot
 })(CarLot)
 CarLot.didLoadData()
 CarLot.addEvents()
-// CarLot.resetingEvents()
