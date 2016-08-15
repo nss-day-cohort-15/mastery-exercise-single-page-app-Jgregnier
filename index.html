@@ -2,30 +2,24 @@
 <html>
 <head>
 	<title> CarLot </title>
-	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="conatiner-fluid">
-      <button type="button" class="btn btn-default navbar-btn">Button</button>
+  <nav class="navbar">
 
-      <input type="text" id="search" placeholder="Search">
+    <button type="button" class="btn btn-default navbar-btn">Button</button>
 
-     <!--  <button type="button" id="reset" class="btn btn-default navbar-btn">Reset</button> -->
-    </div>
+    <input type="text" id="search" placeholder="Search">
+
   </nav>
 
-  <div class="container">
-      <div class="row">
-        <div id = "carHolder">
-        <!-- Cars dynamically Created here -->
-        </div>
-      </div>
+  <div id = "carHolder">
+    <!-- Cars dynamically Created here -->
   </div>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="invLoad.js"></script>
-<script type="text/javascript" src="invEventListeners.js"></script>
-<script type="text/javascript" src="CarLot.js"></script>
+
+<script src="CarLot/CarLot.js"></script>
+<script src="CarLot/invLoad.js"></script>
+<script src="CarLot/invEventListeners.js"></script>
+<script src="CarLot/invReset.js"></script>
 </body>
 </html>

@@ -3,12 +3,7 @@
 	font-size: 12px;
   width: 25%;
   height: 300px;
-	display: inline-block;
+  display: inline-block;
 	border: black 4px solid;
 	margin: 2% 2%;
-}
-
-.selected {
-	border-width: 10px;
-	background-color: lightGrey;
 }
