@@ -59,5 +59,7 @@ CarLot = (function (carLot) {
   CarLot.activateEvents()
 }
 
+CarLot.loadInventory(CarLot.populateCarLot)
+
 return carLot
 })(CarLot || {})

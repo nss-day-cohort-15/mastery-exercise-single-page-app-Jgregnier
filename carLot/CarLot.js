@@ -1,29 +1,22 @@
-var CarLot = (function (carLot) {
+var CarLot = (function () {
 
-  carLot.loadInventory = function (inventory) {
+    var inventory = [];
 
+    return {
+     getInventory: function () {
+      return inventory
+    },
+
+
+  loadInventory: function(cb) {
   	var xhr = new XMLHttpRequest()
     xhr.open('GET', 'inventory.json')
     xhr.addEventListener('load', function() {
-    var inventory = JSON.parse(xhr.responseText)
-    getInventory(inventory);
-    CarLot.populateCarLot(inventory)
+    inventory = JSON.parse(xhr.responseText)
+    cb(inventory)
     })
     xhr.send();
-
-    function getInventory (inventory) {
-
-    inventoryArray = inventory[0].cars
-
-  	for (var i = 0; i < inventoryArray.length; i++){
-  	console.log(inventoryArray[i])
     }
-   };
-
   };
-
-  carLot.loadInventory()
-
-return carLot
 
 })(CarLot || {})
