@@ -9,7 +9,6 @@ CarLot = (function (carLot) {
   }
 
   carLot.addColor = function(thisCar, color) {
-  	console.log(color);
     thisCar.style.cssText += "border-width : 10px";
     thisCar.style.backgroundColor = color;
 
