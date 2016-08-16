@@ -18,6 +18,7 @@ CarLot = (function (carLot) {
         CarLot.addColor(thisCar, color);
 
         searchBar.focus();
+        searchBar.value = "";
       })
     }
 
