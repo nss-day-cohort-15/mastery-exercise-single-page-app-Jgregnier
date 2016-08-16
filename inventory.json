@@ -1,0 +1,60 @@
+[
+  {
+	  "cars": [
+      {
+        "Make": "Toyota",
+        "Model": "4Runner",
+        "Year": "1999",
+        "Price": "$8,000",
+        "Color": "Silver",
+        "Purchased": false,
+        "Description": "This is a decent 1999 Toyota 4Runner with only 170,000 miles on it. Leather seats, power stearing, 4 wheel drive."
+      },
+      {
+        "Make": "Toyota",
+        "Model": "Tacoma",
+        "Year": "2000",
+        "Price": "$10,000",
+        "Color": "Red",
+        "Purchased": false,
+        "Description": "This is a normal 2000 Toyota Tacoma with only 100,000 miles on it. Leather seats, power stearing, 4 wheel drive."
+      },
+      {
+        "Make": "Toyota",
+        "Model": "Tundra",
+        "Year": "2005",
+        "Price": "$18,000",
+        "Color": "Navy",
+        "Purchased": false,
+        "Description": "This is a pretty good 2005 Toyota Tundra with only 50,000 miles on it. It's sure to meet all your Trucking needs."
+      },
+      {
+        "Make": "Toyota",
+        "Model": "Land Cruiser BJ42",
+        "Year": "1984",
+        "Price": "$20,000",
+        "Color": "Olive",
+        "Purchased": false,
+        "Description": "This is my dream car, equipt with a soft top and 5-speed overdrive transmition. If you treat it well this beast will live forever."
+      },
+      {
+        "Make": "Toyota",
+        "Model": "Land Cruiser",
+        "Year": "1970",
+        "Price": "$34,000",
+        "Color": "Blue",
+        "Purchased": false,
+        "Description": "The land cruiser is one of the most reliable 4 wheel drive vehicles every made, pick up one today!"
+      },
+      {
+        "Make": "Toyota",
+        "Model": "Land Cruiser",
+        "Year": "2016",
+        "Price": "$80,000",
+        "Color": "Black",
+        "Purchased": false,
+        "Description": "Who cares about manual transmission and arcaic engenieering? Get this super computer in a car for cheap today!"
+      }
+    ]
+  }
+]
