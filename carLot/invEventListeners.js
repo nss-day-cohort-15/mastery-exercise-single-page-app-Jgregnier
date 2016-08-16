@@ -12,7 +12,6 @@ CarLot = (function (carLot) {
         CarLot.reset(car);
 
         var color = "lightGrey"
-
         var thisCar = this
 
         CarLot.addColor(thisCar, color);
@@ -31,7 +30,7 @@ CarLot = (function (carLot) {
     	var selectedCar = document.querySelector('.selected .description')
       selectedCar.innerHTML = searchBar.value
     })
-  }
+  };
 
 return carLot
 

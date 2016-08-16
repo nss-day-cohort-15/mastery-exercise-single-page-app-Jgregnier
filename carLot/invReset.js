@@ -9,10 +9,11 @@ CarLot = (function (carLot) {
   }
 
   carLot.addColor = function(thisCar, color) {
+
     thisCar.style.cssText += "border-width : 10px";
     thisCar.style.backgroundColor = color;
-
     thisCar.classList.add('selected')
+
   };
 
 return carLot

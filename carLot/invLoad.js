@@ -58,5 +58,6 @@ CarLot = (function (carLot) {
     }
   CarLot.activateEvents()
 }
+
 return carLot
 })(CarLot || {})

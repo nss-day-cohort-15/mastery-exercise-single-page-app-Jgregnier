@@ -1,9 +1,6 @@
 .car {
 	padding: 10px;
 	font-size: 12px;
- /* width: 25%;
-  height: 300px;*/
-  display: inline-block;
 	border: black 4px solid;
 	margin: 2% 2%;
 }
